@@ -1,0 +1,201 @@
+/*-----big tablet to 1200px(width smaller to 1140px)---*/
+@media only screen and (max-width:1200px){
+    .text-box{
+        padding: 0 2%;
+        width: 100%;
+    }
+    .row{padding: 0.2%;}
+}
+/*----small tablet to big tablet(width 768 to 1023px)---*/
+@media only screen and (max-width:1023px){
+    .row{width: 100%;}
+    body{font-size: 15px; }
+    section{padding: 45px 0;}
+    .text-box{
+        padding: 0 2%;
+        margin-left: 1px;
+        width: 95%;
+        left: 43%;
+        top: 50%;
+        -webkit-transform: translate(-43%,-50%);
+        transform: translate(-43%,-50%);
+    }
+    .nav-bar li{
+        margin-right: 30px;
+    }
+   .main-word{
+    margin-left: 20px;
+}
+    .ion-navicon {
+        margin-top: 25px;
+        margin-left: 15px;
+        font-size: 25px;
+    }
+    .btn-full{
+    margin-left: 170px; 
+     margin-top: 25px;
+    padding: 7px 15px;    
+  }
+    .icon-small{ margin-left: 40px;}
+    .btn-small{  margin-left: 42px;}
+    .row-f{margin-left: 30%; }
+    .detail{font-size: 17px;}
+    .text-class i{
+        font-size: 25px;
+        margin-right: -7px;
+    }
+    .price{
+        font-size: 23px;
+        margin-left: 10px;
+    }  
+    .swiper-slide img{
+        margin-top: 30px;
+      width: 100%;
+        text-align: center;
+}
+    .cart:link,
+    .cart:visited{
+        padding: 1px 4px;
+        font-size: 23px;
+    }
+    blockquote{
+    padding: 5%;
+    font-size: 115%;
+    line-height: 130%;
+  }
+    cite{
+    font-size: 120%;
+    margin-top: 20px;
+    }
+
+/*---small phones to small tablets:from 481 to 767px---*/
+@media only screen and (max-width: 767px){
+    section{padding: 40px 0px; }
+    .text-box{padding: 0 3%;
+    margin-left: -25px}
+    .col{width: 100%;
+    margin: 0 0 4% 0;}
+    .nav-bar{display: none;}
+    .row-box{
+    width: 100%;
+}
+     h2{font-size: 100px;}
+    .Watch{display: none;}
+.row-box ul li{
+   padding:7px 0;
+}
+    .btn-full{
+    font-size: 20px;
+    padding: 5px 2px;
+     margin-left: 120px;
+}
+    .row-box ul{ font-size: 25px}
+    .icon-small{
+    font-size: 100%;
+    margin-right:25px;
+    margin-left: 330px;
+}
+       .btn-small{  margin-left: 322px;}
+    .row-box div:first-child{
+   font-size: 30px;margin-left: 0px;
+}
+    .row-f{
+    margin-left: 27%;    
+}
+.right{
+    font-size: 30px; 
+}
+
+.text-class{margin-top: 5px;}
+.text-class i{
+    display: none;
+}
+.price{font-size: 20px;}
+
+.cart:link,
+.cart:visited{
+     padding: 2px 7px;
+     font-size: 15px;
+}
+    .sign-up{
+    width: 350px;
+    padding: 10px;
+    font-size: 20px;
+}
+h3{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.input-box{
+    margin-bottom: 2px;
+    border-radius: 25px;
+    padding: 10px;
+    width: 90%;
+    margin: 10px;
+}
+    blockquote{
+    line-height: 150%;
+    margin-top: 0px;
+    font-size: 150%
+}
+     h2{font-size: 32px;}
+
+     footer{
+    font-size: 150%;
+}
+    }
+/*--small phones from 0 to 480px--*/
+
+@media only screen and (max-width: 480px){
+    body{
+        font-size: 9px;
+    }
+    h1{font-size:29px;}
+    h2{font-size: 30px;}
+    .text-box{padding: 0 6%;}
+ .btn-full{
+    font-size: 15px;
+     margin-left: 100px;
+   margin-top: 10px;
+}
+    .icon-small{
+    font-size: 100%;
+    margin-right:25px;
+    margin-left: 165px;
+}
+       .btn-small{  margin-left: 162px;}
+    .row-box div:first-child{
+   font-size: 20px;
+} 
+     blockquote{ font-size: 165%;}
+    .social-links{ display: none;}
+    footer{
+    font-size: 190%;
+}
+ .row-f{
+    margin-left: 15%;  
+     font-size: 20px;
+}
+.detail{
+    font-size: 15px;
+}
+}
+    @media only screen and (max-width: 360px){
+    .row-box div:first-child{
+    font-size: 15px;
+}
+.row-box ul li{
+  font-size: 15px;
+    margin-left: -10%;
+}
+         .btn-small{  margin-left: 167px;}
+        .right{
+    font-size: 20px;
+}
+    .row-f{
+     font-size: 15px;
+} 
+        footer{
+            font-size: 150%;
+        }
+    }
